@@ -44,7 +44,7 @@ def download_blob_from_azure(file_name, output_dir):
 
 if __name__ == "__main__":
     # Archivo a descargar
-    file_name = "train;img;LaMatanza_GE.tif"
+    file_name = "train;img;Tresdefebrero_GE.tif"
 
     # Obtener el directorio donde está ubicado este script
     current_dir = os.path.dirname(os.path.abspath(__file__))
