@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="extent" id="extent">
+	<SimpleField name="MINX" type="float"></SimpleField>
+	<SimpleField name="MINY" type="float"></SimpleField>
+	<SimpleField name="MAXX" type="float"></SimpleField>
+	<SimpleField name="MAXY" type="float"></SimpleField>
+	<SimpleField name="CNTX" type="float"></SimpleField>
+	<SimpleField name="CNTY" type="float"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="PERIM" type="float"></SimpleField>
+	<SimpleField name="HEIGHT" type="float"></SimpleField>
+	<SimpleField name="WIDTH" type="float"></SimpleField>
+</Schema>
+<Folder><name>extent</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#extent">
+		<SimpleData name="MINX">-59.1938335907407</SimpleData>
+		<SimpleData name="MINY">-35.0697109019295</SimpleData>
+		<SimpleData name="MAXX">-57.9657208465661</SimpleData>
+		<SimpleData name="MAXY">-34.4409721029999</SimpleData>
+		<SimpleData name="CNTX">-58.5797772186534</SimpleData>
+		<SimpleData name="CNTY">-34.7553415024647</SimpleData>
+		<SimpleData name="AREA">0.772162131722457</SimpleData>
+		<SimpleData name="PERIM">3.71370308620835</SimpleData>
+		<SimpleData name="HEIGHT">0.628738798929596</SimpleData>
+		<SimpleData name="WIDTH">1.22811274417458</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-59.1938335907407,-35.0697109019295 -57.9657208465661,-35.0697109019295 -57.9657208465661,-34.4409721029999 -59.1938335907407,-34.4409721029999 -59.1938335907407,-35.0697109019295</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
